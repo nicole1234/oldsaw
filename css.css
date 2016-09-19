@@ -1,0 +1,537 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+ u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	font-family:'Josefin Sans', sans-serif;
+	vertical-align: baseline;
+
+}
+html, body {
+	height: 100%;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	
+}
+   
+
+
+/*Grid*/
+
+.container {
+	display:inline;
+	width:940px;
+	margin-left: auto;
+	margin-right:auto;
+	box-sizing: content-box;
+	float: center;
+}
+
+.row {
+	margin-left: 20px;
+	
+	}
+
+.row::after {
+	display:block;
+	clear:both;
+	
+}
+
+[class*="span"] {
+	float:left;
+	min-height: 1px;
+	margin-left: 20px;
+	box-sizing: bordered-box;
+
+}
+
+.span1{width:60px;}
+.span2{width:140px;}
+.span3{width:220px;}
+.span4{width:300px;}
+.span5{width:380px;}
+.span6{width:460px;}
+.span7{width:540px;}
+.span8{width:620px;}
+.span9{width:700px;}
+.span10{width:780px;}
+.span11{width:860px;}
+.span12{width:960px;}
+
+/*Navigation*/
+#Old-saw-logo{
+	padding-left: 100px;
+	padding-top:
+	width: 290px;
+	height: 90px;
+	
+}
+#header {
+	background-color: white;
+	overflow:none;
+	color: grey;
+	margin-top: 5%;
+}
+
+#header ul {
+	list-style: none;
+	margin: 0;
+	float: right;
+}
+
+.menu-nav{
+	float: right;
+	padding-top: 30px;
+	
+}
+
+.menu-nav li{
+	display: inline;	
+}
+
+.menu-nav li a{
+	display: inline;
+	color: grey;
+}
+
+.menu-nav ul li a {
+	display: inline-block;
+	height: 20px;
+	
+	padding-left: 15px; 
+	padding-right: 15px;
+	color: grey;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:17px;
+	letter-spacing: 1px;
+	
+}
+
+
+.wrapper{
+	max-width: 1200px;
+	min-width: 859px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+.flexslider {
+  margin: 0; 
+  padding: 0; 
+  width: 100%; 
+  height: 100%; 
+  border: 0px; 
+  overflow: hidden;
+}
+.flexslider-container, 
+.flexslider .slides, 
+.flex-viewport {
+    height: 100%;
+}
+.flexslider .slides > li { 
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  /*display: none; */
+  -webkit-backface-visibility: hidden;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*INDEX*/
+
+#Old-saw-logo-button{
+	left: 0;
+	right: 0;
+    height: 368px;
+    width: 675px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: auto;
+    margin-top: auto;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+	z-index: 3;
+	background-image: url("layout_images/oldsawbutton.png");
+	opacity: 0.8;
+}
+
+
+/*ABOUT-Body*/
+
+#icons{
+	float: right;
+	padding:40px 0 5px 0;
+	display: block;
+	overflow: none;
+	clear:both;
+}
+
+#h1caleb{
+padding-left: 8px;
+padding-bottom: 5px;
+text-transform: uppercase;
+color: grey;
+
+}
+
+#h2jamie{
+	clear:both;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	color: grey;
+
+
+
+}
+
+#employee-content{
+	padding-left: 80px;
+	padding-top: 40px;
+	display: inline;
+	float:left;
+	height: 1000px;
+}
+
+
+#employee-content p{
+	display: inline;
+	line-height: 1.5;
+    margin-bottom: 20px;
+    float: right;
+    margin-left: 70px;
+    width: 600px;
+    padding-top: 100px;
+
+}
+
+#Caleb{
+	float:left;
+}
+
+
+/*SERVICES-Body*/
+
+
+#video-services{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 300;
+	font-size: 90px;
+	letter-spacing: 8px;
+	position: relative;
+	text-align: center;
+	width: 400px;
+	top: -780px;
+	right:-0px;
+	color: white;
+}
+
+#service-text{
+
+	font-weight: 300;
+	font-size: 30px;
+	letter-spacing: 5px;
+	position: relative;
+	text-align: center;
+	width: 400px;
+	top: -374px;
+	right:-754px;
+	color: white;
+
+}
+#camera{
+	max-width: 100%
+	width: 1200px;
+	height: 800px;
+	
+}
+h2 h3 h4 p{
+	display: inline;
+float: left;
+}
+
+
+
+#end {
+    background-color: white;
+    border: thin solid #ffffff;
+    box-sizing: bordered-box;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    position: relative;
+    bottom: 288px;
+
+
+}
+
+#end p {
+    box-sizing: border-box;
+    float: left;
+    padding: 1em;
+    width: 33.333%;
+    line-height: 30px;
+    text-align: center;
+    
+}
+/*CONTACT-Body*/
+#phone{
+	max-width: 1200px;
+	max-height: 678px;
+	display: block;
+
+}
+#contact-us{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 300;
+	font-size: 100px;
+	letter-spacing: 5px;
+	position: relative;
+	text-align: center;
+	width: 400px;
+	top: -400px;
+	right:-192px;
+	color: white;
+
+}
+
+#address-content{
+	font-weight: 300;
+	font-size: 19px;
+	letter-spacing: 1px;
+	line-height: 20px;
+	position: relative;
+	text-align: left;
+	width: 400px;
+	top: -325px;
+	right:-381px;
+	color: white;
+
+}
+
+#phone-email{
+	font-weight: 300;
+	font-size: 19px;
+	letter-spacing: 1px;
+	line-height: 25px;
+	position: relative;
+	text-align: left;
+	width: 400px;
+	top: -276px;
+	right:-381px;
+	color: white;
+}
+
+
+/*FORM*/
+
+#ourform{
+	position: relative;
+	top:-200px;
+
+}
+
+
+label{
+
+	display:inline-block; 
+	width: 120px;
+	text-align:left;
+	font-size: 20px;
+	margin-left: 100px;
+	line-height: 50px;
+}
+
+select
+input [type="text"]
+input [type="password"]
+input [type="tel"]
+{
+	border: 1px solid #C723E7;
+	padding: 6px 10px;
+	min-width: 200px;
+	border-radius: 3px;
+}
+.textarea {
+	min-width: 400px;
+	min-height: 100px;
+	vertical-align: top;
+	display:inline-block;
+}
+.input-wrapper{
+	margin-bottom: 10px;
+}
+
+input[type="submit"]{
+	margin-right: auto;
+	margin-left: auto;
+	width:120px;
+	padding:0px 100px 0px 490px;
+	border:1px;
+	border-radius:3px;
+	color:grey;
+	text-transform: uppercase;
+	text-align: auto;
+	font-size: 18px;
+	background-color: white;
+	letter-spacing: 2px;
+
+}
+
+input[type="submit"]::after{
+	display:block;
+	content:">";
+	color:white;
+}
+
+input[type="reset"]{
+	margin-right: auto;
+	margin-left: auto;
+	width:120px;
+	padding:0px 0px 0px 0px;
+	border:1px;
+	border-radius:3px;
+	color:grey;
+	text-transform: uppercase;
+	text-align: auto;
+	font-size: 18px;
+	background-color: white;
+	letter-spacing: 2px;
+	
+}
+
+input[type="reset"]::after{
+	display:block;
+	content:">";
+	color:grey;
+	}
+
+
+form input{
+	width:900px;
+	border-top: none;
+	border-left: none; 
+	border-right: none
+}
+
+
+
+/*Gallery*/
+
+
+	#gallery{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 300;
+	font-size: 90px;
+	letter-spacing: 8px;
+	position: relative;
+	text-align: center;
+	width: 400px;
+	top: -579px;
+	right:-95px;
+	color: white;
+	text-transform: uppercase;
+}
+
+
+#gallery-text{
+
+	font-weight: 300;
+	font-size: 30px;
+	letter-spacing: 5px;
+	position: relative;
+	text-align: center;
+	width: 400px;
+	top: -374px;
+	right:-754px;
+	color: white;
+
+}
+
+#videos{
+	position: relative;
+	top: -152px;
+	right:-14px;
+}
+
+#videos iframe{
+	padding-right: 27px;
+}
+
+
+
+
+
+#Old-saw-logo-bottom{
+	
+	width: 220px;
+	height: 90px;
+	display: block;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+	top:-100px;
+	padding-top: 50px;
+
+}
+
+
+
+
+#Old-saw-logo-bottom-services{
+	
+	width: 220px;
+	height: 90px;
+	display: block;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+	top:-270px;
+	padding-top: 50px;
